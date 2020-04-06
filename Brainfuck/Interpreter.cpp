@@ -46,9 +46,6 @@ Interpreter Interpreter::run()
         case '.':
             interpreter.output.push_back(cells[pointer]);
             break;
-        case ',':
-            std::cin >> cells[pointer];
-            break;
         }
     }
 	return interpreter;
